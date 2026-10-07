@@ -17,7 +17,6 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode; params: { language: string } }) {
-  console.log("CLIENT_ID:", process.env.NEXT_PUBLIC_CLIENT_ID);
   return (
     <html lang={DEFAULT_LANGUAGE} dir={DEFAULT_LANGUAGE_DIR}>
       <head>

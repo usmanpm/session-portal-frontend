@@ -98,24 +98,24 @@ function ThemeProvider(props: PropsWithChildren<{ customTheme?: Theme }>) {
               },
             },
             MuiOutlinedInput: {
-            styleOverrides: {
-              root: {
-                "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                  borderColor: "#fff",
+              styleOverrides: {
+                root: {
+                  "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "#fff",
+                  },
                 },
               },
             },
-          },
-          MuiPickersOutlinedInput: {
-            styleOverrides: {
-              root: {
-                "&.Mui-focused .MuiPickersOutlinedInput-notchedOutline": {
-                  borderColor: "#fff",
+            MuiPickersOutlinedInput: {
+              styleOverrides: {
+                root: {
+                  "&.Mui-focused .MuiPickersOutlinedInput-notchedOutline": {
+                    borderColor: "#fff",
+                  },
                 },
               },
             },
-          },
-          MuiCssBaseline: {
+            MuiCssBaseline: {
               /* c8 ignore next 14 */
               styleOverrides: (val) => ({
                 body: {
